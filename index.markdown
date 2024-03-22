@@ -6,5 +6,6 @@ layout: page
 title: Minimal Habit Tracker
 ---
 
+benefits of this habit tracker:
 
----
+git hub
