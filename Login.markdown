@@ -1,11 +1,11 @@
 ---
 
 layout: page
-title: Minimal Habit Tracker
-permalink: /about/
+title: Login
+permalink: /login/
 
 redirect_from:
-  - /about/
+  - /login/
   - https://habit-tracker-indol-ten.vercel.app
 
 
