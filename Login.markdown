@@ -2,10 +2,10 @@
 
 layout: page
 title: Login
-permalink: /login/
+permalink: /login
 
 redirect_from:
-  - /login/
+  - /login
   - https://habit-tracker-indol-ten.vercel.app
 
 
