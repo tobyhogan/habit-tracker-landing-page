@@ -8,4 +8,4 @@ title: Home
 
 benefits of this habit tracker:
 
-- is good
+- is good, and 
