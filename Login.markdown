@@ -1,9 +1,9 @@
 ---
 
 layout: page
-title: Login
+title: Login/Sign Up
 
-redirect_to: https://habit-tracker-indol-ten.vercel.app/
+redirect_to: https://habit-tracker-indol-ten.vercel.app
 
 ---
 
