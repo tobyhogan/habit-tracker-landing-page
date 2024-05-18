@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Minimal Habit Tracker
+title: Home
 ---
 
 benefits of this habit tracker:
