@@ -6,7 +6,7 @@ permalink: /login
 
 redirect_from:
   - /login
-  - https://habit-tracker-indol-ten.vercel.app
+  - https://habit-tracker-indol-ten.vercel.app/
 
 ---
 
