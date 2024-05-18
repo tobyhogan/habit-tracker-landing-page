@@ -4,6 +4,7 @@
 
 layout: page
 title: Home
+permalink: /home
 ---
 
 benefits of this habit tracker:
