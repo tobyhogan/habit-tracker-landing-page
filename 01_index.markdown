@@ -7,6 +7,8 @@ title: Home
 permalink: /
 ---
 
-benefits of this habit tracker:
+Why this Habit Tracker?
 
-- is good, and it can l
+- Shows next weeks habits in a seamless table
+- Flexible, customizable and as simple or advanced as you want it to be
+- Open source
