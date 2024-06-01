@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Path Notes
+title: Patch Notes
 permalink: patch-notes
 ---
 
