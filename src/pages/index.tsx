@@ -32,6 +32,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <>
       <NavBar/>
       <main>
+        <button className='border-2 border-black rounded-md p-2 mx-auto mt-10'>Sign Up Now</button>
         <h1 className="text-center text-2xl mt-7">Features:</h1>
         <ul className="mx-auto w-fit mt-3 pl-8">
           <li>- Extremely good habit tracker</li>
