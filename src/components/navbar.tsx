@@ -1,5 +1,8 @@
 import React from "react";
 
+import '../styles/global.css'
+import '../styles/index.css'
+
 
 export const NavBar = ({}) =>
     <nav className="flex justify-between border-b-black border-2 bg-gray-250">
