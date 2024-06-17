@@ -14,3 +14,7 @@ nav ul li {
     font-size: 18px;
     font-weight: 500;
 }
+
+main ul li {
+    font-weight: 400;
+}

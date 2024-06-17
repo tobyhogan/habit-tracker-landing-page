@@ -31,11 +31,13 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
       <NavBar/>
-      <h1 className="text-center text-2xl mt-7">Features:</h1>
-      <ul className="mx-auto w-fit mt-3 pl-8">
-        <li>- Extremely good habit tracker</li>
-        <li>- Good aesthetics</li>
-      </ul>
+      <main>
+        <h1 className="text-center text-2xl mt-7">Features:</h1>
+        <ul className="mx-auto w-fit mt-3 pl-8">
+          <li>- Extremely good habit tracker</li>
+          <li>- Good aesthetics</li>
+        </ul>
+      </main>
     </>
   )
 }
