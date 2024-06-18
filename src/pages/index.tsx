@@ -41,9 +41,9 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
         <h1 className="text-center text-xl mt-7">Features:</h1>
         <ul className="mx-auto w-fit mt-3 pl-8">
-          <li>- Extremely good habit tracker</li>
-          <li>- Good aesthetics</li>
-          <li>- Good aesthetics</li>
+          <li>- Shows you habit week view</li>
+          <li>- Dark Mode</li>
+          <li>- Allows habit archiving</li>
         </ul>
       </main>
     </>
