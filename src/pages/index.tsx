@@ -6,6 +6,8 @@ import '../styles/index.css'
 
 import {NavBar} from '../components/navbar'
 
+import habtiazen_screenshot from "../assets/habitazen.png"
+
 
 const widgetsRowStyles = {
   margin: "auto",
@@ -32,12 +34,15 @@ const IndexPage: React.FC<PageProps> = () => {
     <>
       <NavBar/>
       <main className="">
+        <img src={habtiazen_screenshot} className="w-96 border-2 mt-16 mb-10"></img>
+        <h1 className="text-2xl text-center mb-12">Habitazen: Your New Favourite Habit Tracker</h1>
         <div className="mx-auto w-fit">
-          <a href="https://habit-tracker-indol-ten.vercel.app/"><button className='rounded-md py-2 px-3 mt-20 mb-16 text-white bg-grayNew-500 hover:bg-grayNew-600'>Sign Up Now!</button></a>
+          <a href="https://habit-tracker-indol-ten.vercel.app/"><button className='rounded-md py-2 px-3 mb-16 text-white bg-grayNew-400 hover:bg-grayNew-375'>Sign Up Now!</button></a>
         </div>
-        <h1 className="text-center text-2xl mt-7">Features:</h1>
+        <h1 className="text-center text-xl mt-7">Features:</h1>
         <ul className="mx-auto w-fit mt-3 pl-8">
           <li>- Extremely good habit tracker</li>
+          <li>- Good aesthetics</li>
           <li>- Good aesthetics</li>
         </ul>
       </main>
