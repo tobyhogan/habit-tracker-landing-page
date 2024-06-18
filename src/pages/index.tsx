@@ -33,7 +33,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <NavBar/>
       <main className="">
         <div className="mx-auto w-fit">
-          <a href="https://habit-tracker-indol-ten.vercel.app/"><button className='border-2 border-black rounded-md p-2 mt-20 mb-16'>Sign Up Now!</button></a>
+          <a href="https://habit-tracker-indol-ten.vercel.app/"><button className='rounded-md py-2 px-3 mt-20 mb-16 text-white bg-grayNew-500 hover:bg-grayNew-600'>Sign Up Now!</button></a>
         </div>
         <h1 className="text-center text-2xl mt-7">Features:</h1>
         <ul className="mx-auto w-fit mt-3 pl-8">
