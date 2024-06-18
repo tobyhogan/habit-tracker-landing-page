@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[531],{6456:function(e,n,t){t.r(n),t.d(n,{PatchNotes:function(){return c}});var u=t(7294);const c=()=>u.createElement("main",null,u.createElement("h1",null,"hi"));n.default=c}}]);
+//# sourceMappingURL=component---src-pages-patch-notes-tsx-e234410a7cafed269af3.js.map
