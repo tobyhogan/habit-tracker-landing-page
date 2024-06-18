@@ -37,7 +37,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <img src={habtiazen_screenshot} className="w-96 border-2 mt-16 mb-10"></img>
         <h1 className="text-2xl text-center mb-12">Habitazen: Your New Favourite Habit Tracker</h1>
         <div className="mx-auto w-fit">
-          <a href="https://habit-tracker-indol-ten.vercel.app/"><button className='rounded-md py-2 px-3 mb-16 text-white bg-grayNew-400 hover:bg-grayNew-375'>Sign Up Now!</button></a>
+          <a href="https://habit-tracker-indol-ten.vercel.app/"><button className='rounded-md py-2 px-3 mb-16 text-white bg-slate-450 hover:bg-slate-500'>Sign Up Now!</button></a>
         </div>
         <h1 className="text-center text-xl mt-7">Features:</h1>
         <ul className="mx-auto w-fit mt-3 pl-8">
