@@ -33,7 +33,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
       <NavBar/>
-      <main className="">
+      <main className="pb-20">
         <img src={habtiazen_screenshot} className="w-96 border-2 mt-16 mb-10"></img>
         <h1 className="text-2xl text-center mb-12">Habitazen: Your New Favourite Habit Tracker</h1>
         <div className="mx-auto w-fit">
