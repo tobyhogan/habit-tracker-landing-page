@@ -13,7 +13,7 @@ module.exports = {
     // ...
   ],
 
-  //pathPrefix: "",
+  pathPrefix: "/habit-tracker-landing-page",
   
 
 }
