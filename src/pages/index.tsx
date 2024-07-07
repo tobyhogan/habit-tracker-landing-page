@@ -6,7 +6,7 @@ import '../styles/index.css'
 
 import {NavBar} from '../components/navbar'
 
-import habtiazen_screenshot from "../assets/habitazen.png"
+import habtiazen_screenshot from "/habit-tracker-landing-pages/static/habitazen.png"
 
 
 const widgetsRowStyles = {
