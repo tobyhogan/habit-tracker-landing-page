@@ -6,7 +6,7 @@ import '../styles/index.css'
 
 import {NavBar} from '../components/navbar'
 
-import habtiazen_screenshot from "/habit-tracker-landing-pages/static/habitazen.png"
+import habitazen_screenshot from '../images/habitazen.png'
 
 
 const widgetsRowStyles = {
@@ -34,7 +34,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <>
       <NavBar/>
       <main className="pb-20">
-        <img src={habtiazen_screenshot} className="w-96 border-2 mt-8"></img>
+        <img src={habitazen_screenshot} className="w-96 border-2 mt-8"></img>
         <h1 className="text-2xl text-center mt-8">Habitazen: Your New Favourite Habit Tracker</h1>
         <div className="flex flex-col mx-auto w-fit mt-8">
           <a href="https://habit-tracker-indol-ten.vercel.app/">
