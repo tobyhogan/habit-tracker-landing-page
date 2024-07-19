@@ -4,7 +4,7 @@ import type { HeadFC, PageProps } from "gatsby"
 import '../styles/global.css'
 import '../styles/index.css'
 
-import { Header } from '../components/header'
+import Header from '../components/header'
 import { Footer } from '../components/footer'
 
 import tablescreenshot from '../images/habitazen.png'
