@@ -24,7 +24,7 @@ function Header() {
   return (
 
     <nav className="NavBar flex justify-between bg-slate-100 text-slate-600">
-      <a href='/' className='text-[35px] ml-14 py-3'>Project Title</a>
+      <a href='/' className='text-[35px] ml-14 py-3'>Habitazen</a>
 
       <div className="FullNav">
 
