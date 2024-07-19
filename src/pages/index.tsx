@@ -17,7 +17,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <Header />
       <main className="pb-20">
         <img src={tablescreenshot} className="w-96 border-2 mt-8"></img>
-        <h1 className="text-2xl mt-8">Habitazen: Your New Favourite Habit Tracker</h1>
+        <h1 className="text-2xl mt-8">Habitazen: Advanced Habit Tracker</h1>
         <div className="flex flex-col mx-auto w-fit mt-8">
           <a href="https://habit-tracker-indol-ten.vercel.app/">
             <button className='rounded-md py-2 px-3 text-white bg-slate-450 hover:bg-slate-500'>Sign Up Now!</button>
