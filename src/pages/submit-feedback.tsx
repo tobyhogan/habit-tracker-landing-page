@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link, HeadFC, PageProps } from "gatsby"
-import { NavBar } from "../components/navbar"
+import { NavBar } from "../components/header"
 
 import '../styles/global.css'
 import '../styles/index.css'

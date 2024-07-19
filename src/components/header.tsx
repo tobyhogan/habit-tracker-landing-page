@@ -4,7 +4,7 @@ import '../styles/global.css'
 import '../styles/index.css'
 
 
-export const NavBar = ({}) =>
+export const Header = ({}) =>
     <nav className="NavBar flex justify-between bg-slate-100 text-slate-600">
         <a href='/' className='text-[35px] ml-10 py-3'>Habitazen</a>
         <ul className="flex my-auto">

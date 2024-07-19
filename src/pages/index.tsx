@@ -4,7 +4,7 @@ import type { HeadFC, PageProps } from "gatsby"
 import '../styles/global.css'
 import '../styles/index.css'
 
-import {NavBar} from '../components/navbar'
+import { Header } from '../components/header'
 
 import tablescreenshot from '../images/habitazen.png'
 
@@ -32,7 +32,7 @@ const projectWidgetStyles = {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-      <NavBar/>
+      <Header />
       <main className="pb-20">
         <img src={tablescreenshot} className="w-96 border-2 mt-8"></img>
         <h1 className="text-2xl mt-8">Habitazen: Your New Favourite Habit Tracker</h1>
