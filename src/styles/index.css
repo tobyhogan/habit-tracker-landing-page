@@ -32,8 +32,11 @@ h3 {
   text-align: center;
 }
 
-a {
+.LinkContainer a {
   margin: 0 auto;
+  text-decoration: underline;
+  color: rgb(73, 73, 175);
+  font-size: 16px;
 }
 
 

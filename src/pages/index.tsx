@@ -5,6 +5,7 @@ import '../styles/global.css'
 import '../styles/index.css'
 
 import { Header } from '../components/header'
+import { Footer } from '../components/footer'
 
 import tablescreenshot from '../images/habitazen.png'
 
@@ -49,8 +50,12 @@ const IndexPage: React.FC<PageProps> = () => {
           <li>- Allows habit archiving</li>
         </ul>
         <h2 className="text-xl mt-10">Download App</h2>
-        <a href="" className="">Link</a>
+        <h3 className="mt-3 text-lg">Android:</h3>
+        <div className="LinkContainer mx-auto w-fit">
+          <a href="https://drive.google.com/file/d/1rep6FARskJUY_Jtzs57yacXZqxA3EHIS/view?usp=drive_link" className="">Download APK File</a>
+        </div>
       </main>
+      <Footer />
     </>
   )
 }
