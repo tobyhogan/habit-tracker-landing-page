@@ -14,9 +14,9 @@ function Header() {
   const navList = 
     <>
     
-      <a href="/" className="hover:underline">Page 1</a>
-      <a href="/" className="hover:underline">Page 2</a>
-      <a href="/" className="hover:underline">Page 3</a>
+      <a href="https://habit-tracker-indol-ten.vercel.app/" className="hover:underline">Log In / Sign Up</a>
+      <a href="/" className="hover:underline">Home</a>
+      <a href="/submit-feedback" className="hover:underline">Submit Feedback</a>
 
     </>
 
@@ -42,8 +42,8 @@ function Header() {
 
         {navOpen ?
 
-          <div className="border-1 border-slate-300 border-2 pt-4 pb-3 pl-2 pr-4 -ml-16 absolute rounded-md bg-white">
-            <ul className="flex flex-col text-start ml-3 [&>a]:mb-1">
+          <div className="border-1 border-slate-300 border-2 pt-4 pb-3 pl-2 pr-4 -ml-24 w-50 absolute rounded-md bg-white">
+            <ul className="flex flex-col text-start ml-3">
               {navList}
             </ul>
           </div>

@@ -51,11 +51,17 @@ h3 {
 }
 
 .LinkContainer a {
-  margin: 0 auto;
+
   text-decoration: underline;
   color: rgb(73, 73, 175);
   font-size: 16px;
+
 }
+
+.FullNav  a {
+  margin: 0 25px 0 0;
+}
+
 
 
 
@@ -73,7 +79,7 @@ img {
     margin: 0 auto 8px auto;
 }
 
-
+/*
 
 nav ul li {
     margin: 0 30px 0 0;
@@ -84,3 +90,5 @@ nav ul li {
 main ul li {
     font-weight: 400;
 }
+
+*/

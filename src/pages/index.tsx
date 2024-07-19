@@ -10,25 +10,6 @@ import { Footer } from '../components/footer'
 import tablescreenshot from '../images/habitazen.png'
 
 
-const widgetsRowStyles = {
-  margin: "auto",
-  display: "flex",
-  justifyContent: "space-between",
-
-}
-
-const projectWidgetStyles = {
-  border: "2px solid black",
-  borderRadius: "8px",
-  width: "28%",
-  margin: "1%",
-  textAlign: "center",
-  display: "flex",
-  flexDirection: "column",
-
-}
-
-
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
