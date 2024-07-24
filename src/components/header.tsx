@@ -16,6 +16,7 @@ function Header() {
     
       <a href="https://habit-tracker-indol-ten.vercel.app/" className="hover:underline">Log In / Sign Up</a>
       <a href="/" className="hover:underline">Home</a>
+      <a href="/documentation" className="hover:underline">Docs</a>
       <a href="/submit-feedback" className="hover:underline">Submit Feedback</a>
 
     </>
