@@ -19,7 +19,10 @@ const AboutPage: React.FC<PageProps> = () => {
       <main>
         <h1 className="text-3xl mt-8">About</h1>
         <h2 className="text-xl mt-4">Development</h2>
-        <h3 className="text-xl mt-4">Developed by Toby Hogan - tobyhogan.space as part of Kazen Projects </h3>
+        <h3 className="text-lg mt-4">
+          Developed by Toby Hogan
+          (<a href="https://tobyhogan.space" className="underline">tobyhogan.space</a>) 
+          as part of the Kazen Projects Company</h3>
 
       </main>
       <Footer />
