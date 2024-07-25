@@ -15,10 +15,10 @@ function Header() {
     <>
     
       <a href="https://habit-tracker-indol-ten.vercel.app/" className="hover:underline">Log In / Sign Up</a>
-      <a href="/" className="hover:underline">Home</a>
-      <a href="/about" className="hover:underline">About</a>
-      <a href="/documentation" className="hover:underline">Docs</a>
-      <a href="/submit-feedback" className="hover:underline">Submit Feedback</a>
+      <a href="/habit-tracker-landing-page" className="hover:underline">Home</a>
+      <a href="/habit-tracker-landing-page/about" className="hover:underline">About</a>
+      <a href="/habit-tracker-landing-page/documentation" className="hover:underline">Docs</a>
+      <a href="/habit-tracker-landing-page/submit-feedback" className="hover:underline">Submit Feedback</a>
 
     </>
 

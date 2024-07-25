@@ -13,7 +13,7 @@ module.exports = {
     // ...
   ],
 
-  pathPrefix: "/habit-tracker-landing-pagehttps://tobyhogan.github.io/habit-tracker-landing-page/",
+  pathPrefix: "/habit-tracker-landing-page",
   
 
 }
