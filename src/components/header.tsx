@@ -18,9 +18,9 @@ function Header() {
     
       <a href="https://habit-tracker-indol-ten.vercel.app/" className="hover:underline">Log In / Sign Up</a>
       <Link to="/" className="hover:underline">Home</Link>
-      <Link to="/habit-tracker-landing-page/about" className="hover:underline">About</Link>
-      <Link to="/habit-tracker-landing-page/documentation" className="hover:underline">Docs</Link>
-      <Link to="/habit-tracker-landing-page/submit-feedback" className="hover:underline">Submit Feedback</Link>
+      <Link to="/about" className="hover:underline">About</Link>
+      <Link to="/documentation" className="hover:underline">Docs</Link>
+      <Link to="/submit-feedback" className="hover:underline">Submit Feedback</Link>
 
     </>
 
@@ -28,7 +28,7 @@ function Header() {
   return (
 
     <nav className="NavBar flex justify-between bg-slate-100 text-slate-600">
-      <a href='/habit-tracker-landing-page' className='text-[35px] ml-14 py-3'>Habitazen</a>
+      <Link to='/' className='text-[35px] ml-14 py-3'>Habitazen</Link>
 
       <div className="FullNav">
 
