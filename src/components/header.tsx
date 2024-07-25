@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { Link } from "gatsby";
+
 import { MdMenu } from "react-icons/md";
 
 import '../styles/global.css'
@@ -15,10 +17,10 @@ function Header() {
     <>
     
       <a href="https://habit-tracker-indol-ten.vercel.app/" className="hover:underline">Log In / Sign Up</a>
-      <a href="/habit-tracker-landing-page" className="hover:underline">Home</a>
-      <a href="/habit-tracker-landing-page/about" className="hover:underline">About</a>
-      <a href="/habit-tracker-landing-page/documentation" className="hover:underline">Docs</a>
-      <a href="/habit-tracker-landing-page/submit-feedback" className="hover:underline">Submit Feedback</a>
+      <Link to="/" className="hover:underline">Home</Link>
+      <Link to="/habit-tracker-landing-page/about" className="hover:underline">About</Link>
+      <Link to="/habit-tracker-landing-page/documentation" className="hover:underline">Docs</Link>
+      <Link to="/habit-tracker-landing-page/submit-feedback" className="hover:underline">Submit Feedback</Link>
 
     </>
 
