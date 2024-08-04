@@ -21,7 +21,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <h1 className="text-2xl mt-8">Habitazen: An Unreasonably Effective Habit Tracker</h1>
         <div className="flex flex-col mx-auto w-fit mt-8">
 
-          <Link to="https://habit-tracker-indol-ten.vercel.app/" className="rounded-md py-2 px-3 bg-gradient-to-tr from-red-500 to-blue-700 hover:bg-slate-500">
+          <Link to="https://habit-tracker-indol-ten.vercel.app/" className="rounded-md py-2 px-3 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
             Sign Up Now!
           </Link>
 
