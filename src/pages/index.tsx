@@ -8,7 +8,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 
 //@ts-ignore
-import tablescreenshot from '../images/habitazen.png'
+import tablescreenshot from '../images/habitazen-dark.png'
 
 
 
@@ -17,7 +17,9 @@ const IndexPage: React.FC<PageProps> = () => {
     <>
       <Header />
       <main className="pb-10">
-        <img src={tablescreenshot} className="w-96 border-2 mt-8"></img>
+        <div className="mx-6">
+          <img src={tablescreenshot} className="w-[550px] border-[1px] mt-12"></img>
+        </div>
         <h1 className="text-2xl mt-8">Habitazen: An Unreasonably Effective Habit Tracker</h1>
         <div className="flex flex-col mx-auto w-fit mt-8">
 

@@ -130,7 +130,7 @@ function Header() {
       <div className="ToggleNav">
 
         <button onClick={() => {setNavOpen(navOpen => !navOpen)}}>
-          <MdMenu className="ml-4 mr-8 mt-6" size={30}/>
+          <MdMenu className="ml-4 mr-8 mt-6 text-black dark:text-white" size={30} />
         </button>
 
         {navOpen ?
