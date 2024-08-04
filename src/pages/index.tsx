@@ -21,12 +21,12 @@ const IndexPage: React.FC<PageProps> = () => {
         <h1 className="text-2xl mt-8">Habitazen: An Unreasonably Effective Habit Tracker</h1>
         <div className="flex flex-col mx-auto w-fit mt-8">
 
-          <Link to="https://habit-tracker-indol-ten.vercel.app/" className="rounded-md py-2 px-3 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
+          <Link to="https://habit-tracker-indol-ten.vercel.app/" className="Link1 rounded-md text-lg py-1.5 px-6 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
             Sign Up Now!
           </Link>
 
+          <Link to="https://habit-tracker-indol-ten.vercel.app/" className="Link2 mt-4 mx-auto">Or Log In</Link>
 
-          <Link to="https://habit-tracker-indol-ten.vercel.app/" className="mt-4 underline text-blue-400 mx-auto">Or Log In</Link>
         </div>
         <h2 className="text-xl mt-8">Features:</h2>
         <ul className="mx-auto w-fit mt-3 pl-8">
@@ -36,9 +36,11 @@ const IndexPage: React.FC<PageProps> = () => {
         </ul>
         <h2 className="text-xl mt-10">Download App</h2>
         <h3 className="mt-3 text-lg">Android:</h3>
-        <div className="LinkContainer mx-auto w-fit">
-          <a href="https://drive.google.com/file/d/1rep6FARskJUY_Jtzs57yacXZqxA3EHIS/view?usp=drive_link" className="">Download APK File</a>
+
+        <div className="mx-auto w-fit">
+          <Link to="https://drive.google.com/file/d/1rep6FARskJUY_Jtzs57yacXZqxA3EHIS/view?usp=drive_link" className="Link2 underline mt-3">Download APK File</Link>
         </div>
+
       </main>
       <Footer />
     </>

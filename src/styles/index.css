@@ -50,13 +50,24 @@
     background-color: #252525;
   }
 
-  a {
-    color: #ffffff;
-  }
 
   h1, h2, h3, p, li {
     color: #ffffff;
   }
+
+  .Link1 {
+    color: #ffffff;
+  }
+
+
+  .Link2 {
+
+    text-decoration: underline;
+    color: #a59df0;
+  
+  }
+  
+  
 
 
 }
@@ -74,13 +85,9 @@ h3 {
   text-align: center;
 }
 
-.LinkContainer a {
 
-  text-decoration: underline;
-  color: rgb(73, 73, 175);
-  font-size: 16px;
 
-}
+
 
 .FullNav  a {
   margin: 0 25px 0 0;

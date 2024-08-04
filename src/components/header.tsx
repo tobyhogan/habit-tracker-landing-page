@@ -105,11 +105,11 @@ function Header() {
   const navList = 
     <>
     
-      <Link to="https://habit-tracker-indol-ten.vercel.app/" className="hover:underline">Log In / Sign Up</Link>
-      <Link to="/" className="hover:underline">Home</Link>
-      <Link to="/about" className="hover:underline">About</Link>
-      <Link to="/documentation" className="hover:underline">Docs</Link>
-      <Link to="/submit-feedback" className="hover:underline">Submit Feedback</Link>
+      <Link to="https://habit-tracker-indol-ten.vercel.app/" className="Link1 hover:underline">Log In / Sign Up</Link>
+      <Link to="/" className="Link1 hover:underline">Home</Link>
+      <Link to="/about" className="Link1 hover:underline">About</Link>
+      <Link to="/documentation" className="Link1 hover:underline">Docs</Link>
+      <Link to="/submit-feedback" className="Link1 hover:underline">Submit Feedback</Link>
 
     </>
 
@@ -117,7 +117,7 @@ function Header() {
   return (
 
     <header className="NavBar flex justify-between">
-      <Link to='/' className='text-[35px] ml-14 py-3'>Habitazen</Link>
+      <Link to='/' className='Link1 text-[35px] ml-14 py-3'>Habitazen</Link>
 
       <div className="FullNav">
 
