@@ -8,7 +8,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 
 //@ts-ignore
-import tablescreenshot from '../images/habitazen-dark.png'
+import tablescreenshot from '../assets/habitazen-dark.png'
 
 
 
