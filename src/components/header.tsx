@@ -17,11 +17,13 @@ function Header() {
 
 
 
-  document.body.classList.add('dark')
+
 
 
 
   useEffect(() => {
+
+    document.body.classList.add('dark')
 
 
     if (!localStorage.getItem("theme")) {
