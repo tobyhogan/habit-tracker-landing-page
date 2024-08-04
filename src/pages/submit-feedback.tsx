@@ -3,7 +3,7 @@ import { Link, HeadFC, PageProps } from "gatsby"
 
 
 import Header from "../components/header"
-import { Footer } from "../components/footer"
+import Footer from "../components/footer"
 
 import '../styles/global.css'
 import '../styles/index.css'

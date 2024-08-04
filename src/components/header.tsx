@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { Link } from "gatsby";
 
-import { MdMenu } from "react-icons/md";
+import { MdMenu, MdOutlineDarkMode, MdLightMode, MdLight, MdDarkMode } from "react-icons/md";
 
 import '../styles/global.css'
 import '../styles/index.css'
@@ -12,6 +12,89 @@ import '../styles/index.css'
 function Header() {
 
   const [navOpen, setNavOpen] = useState(false)
+
+  const [isDark, setIsDark] = useState(false)
+
+  useEffect(() => {
+
+
+    if (!localStorage.getItem("theme")) {
+
+      
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+
+        localStorage.setItem("theme", "dark")
+        document.body.classList.add('dark')
+  
+        setIsDark(true)
+          
+
+      } else {
+
+        localStorage.setItem("theme", "dark")
+        document.body.classList.add('dark')
+  
+        setIsDark(true)
+
+      }
+
+
+    } else if (localStorage.getItem("theme") == "light") {
+
+      
+      
+      document.body.classList.add('light');
+
+      setIsDark(false)
+
+
+
+    } else if (localStorage.getItem("theme") == "dark") {
+
+      
+      
+      document.body.classList.add('dark');
+
+      setIsDark(true)
+
+    }
+
+
+  }, [])
+
+
+  function handleToggleTheme() {
+
+
+    if (localStorage.getItem("theme") == "light") {
+
+
+      localStorage.setItem("theme", "dark")
+
+      
+      document.body.classList.add('dark');
+      document.body.classList.remove('light');
+
+      setIsDark(true)
+      
+
+    } else if (localStorage.getItem("theme") == "dark") {
+
+      localStorage.setItem("theme", "light")
+
+      document.body.classList.add('light');
+      document.body.classList.remove('dark');
+
+      setIsDark(false)
+
+    } 
+
+
+  }
+
+
+
+
 
   const navList = 
     <>
@@ -27,7 +110,7 @@ function Header() {
 
   return (
 
-    <nav className="NavBar flex justify-between bg-slate-100 text-slate-600">
+    <header className="NavBar flex justify-between bg-slate-100 text-slate-600">
       <Link to='/' className='text-[35px] ml-14 py-3'>Habitazen</Link>
 
       <div className="FullNav">
@@ -55,8 +138,19 @@ function Header() {
         : null }
 
       </div>
+      
+      { 
+      /*
+      <div className="ThemeToggler">
+
+        { isDark ? (<button onClick={handleToggleTheme}><MdOutlineDarkMode size={28} className="text-black dark:text-white"/></button>)
+          : (<button onClick={handleToggleTheme}><MdLightMode size={28} className="text-black dark:text-white"/></button>) }
+
+      </div>
+
+      */ }
         
-    </nav>
+    </header>
 
   )
 

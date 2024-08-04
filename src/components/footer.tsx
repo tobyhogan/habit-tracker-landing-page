@@ -4,10 +4,19 @@ import '../styles/global.css'
 import '../styles/index.css'
 
 
-export const Footer = ({}) =>
+function Footer() {
 
-  <footer className="text-center py-8">
 
-    <p>© Habitazen 2024</p>
+  return (
 
-  </footer>
+    <footer className="text-center py-8">
+
+      <p>© Habitazen 2024</p>
+
+    </footer>
+
+  )
+
+}
+
+export default Footer
