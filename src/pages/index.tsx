@@ -1,5 +1,5 @@
 import * as React from "react"
-import type { HeadFC, PageProps } from "gatsby"
+import { Link, type HeadFC, type PageProps } from "gatsby"
 
 import '../styles/global.css'
 import '../styles/index.css'
@@ -16,14 +16,17 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
       <Header />
-      <main className="pb-20">
+      <main className="pb-10">
         <img src={tablescreenshot} className="w-96 border-2 mt-8"></img>
-        <h1 className="text-2xl mt-8">Habitazen: Advanced Habit Tracker</h1>
+        <h1 className="text-2xl mt-8">Habitazen: An Unreasonably Effective Habit Tracker</h1>
         <div className="flex flex-col mx-auto w-fit mt-8">
-          <a href="https://habit-tracker-indol-ten.vercel.app/">
-            <button className='rounded-md py-2 px-3 text-white bg-slate-450 hover:bg-slate-500'>Sign Up Now!</button>
-          </a>
-          <a href="https://habit-tracker-indol-ten.vercel.app/" className="mt-4 underline text-blue-400 mx-auto">Or Log In</a>
+
+          <Link to="https://habit-tracker-indol-ten.vercel.app/" className="rounded-md py-2 px-3 bg-gradient-to-tr from-red-500 to-blue-700 hover:bg-slate-500">
+            Sign Up Now!
+          </Link>
+
+
+          <Link to="https://habit-tracker-indol-ten.vercel.app/" className="mt-4 underline text-blue-400 mx-auto">Or Log In</Link>
         </div>
         <h2 className="text-xl mt-8">Features:</h2>
         <ul className="mx-auto w-fit mt-3 pl-8">

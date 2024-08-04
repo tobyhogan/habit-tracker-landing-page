@@ -17,23 +17,47 @@
 
 
 
-
-
-
-
 }
 
 @media only screen and (min-width: 801px) {
 
 
-.ToggleNav {
-  display: none;
+  .ToggleNav {
+    display: none;
+  }
+
+  .FullNav {
+    display: auto;
+
+  }
+
 }
 
-.FullNav {
-  display: auto;
 
-}
+
+
+
+
+.dark {
+
+  background-color: #222222;
+
+  header {
+    background-color: #2b2b2b;
+  }
+
+  footer {
+    background-color: #252525;
+  }
+
+  a {
+    color: #ffffff;
+  }
+
+  h1, h2, h3, p, li {
+    color: #ffffff;
+  }
+
 
 }
 
@@ -61,13 +85,6 @@ h3 {
 .FullNav  a {
   margin: 0 25px 0 0;
 }
-
-
-
-
-
-
-
 
 
 

@@ -15,6 +15,12 @@ function Header() {
 
   const [isDark, setIsDark] = useState(false)
 
+
+
+  document.body.classList.add('dark')
+
+
+
   useEffect(() => {
 
 
@@ -99,7 +105,7 @@ function Header() {
   const navList = 
     <>
     
-      <a href="https://habit-tracker-indol-ten.vercel.app/" className="hover:underline">Log In / Sign Up</a>
+      <Link to="https://habit-tracker-indol-ten.vercel.app/" className="hover:underline">Log In / Sign Up</Link>
       <Link to="/" className="hover:underline">Home</Link>
       <Link to="/about" className="hover:underline">About</Link>
       <Link to="/documentation" className="hover:underline">Docs</Link>
@@ -110,7 +116,7 @@ function Header() {
 
   return (
 
-    <header className="NavBar flex justify-between bg-slate-100 text-slate-600">
+    <header className="NavBar flex justify-between">
       <Link to='/' className='text-[35px] ml-14 py-3'>Habitazen</Link>
 
       <div className="FullNav">
