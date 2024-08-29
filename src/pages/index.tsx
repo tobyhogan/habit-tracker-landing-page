@@ -30,12 +30,13 @@ const IndexPage: React.FC<PageProps> = () => {
           <Link to="https://habit-tracker-indol-ten.vercel.app/" className="Link2 mt-4 mx-auto">Or Log In</Link>
 
         </div>
-        <h2 className="text-xl mt-8">Features:</h2>
+        <h2 className="text-xl mt-8">Core Features:</h2>
         <ul className="mx-auto w-fit mt-3 pl-8">
           <li>- Shows you habit week view</li>
           <li>- Dark Mode</li>
           <li>- Allows habit archiving</li>
         </ul>
+        
         <h2 className="text-xl mt-10">Download App</h2>
         <h3 className="mt-3 text-lg">Android:</h3>
 
