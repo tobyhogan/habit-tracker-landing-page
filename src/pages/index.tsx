@@ -36,7 +36,8 @@ const IndexPage: React.FC<PageProps> = () => {
           <li>- Dark Mode</li>
           <li>- Allows habit archiving</li>
         </ul>
-        
+
+
         <h2 className="text-xl mt-10">Download App</h2>
         <h3 className="mt-3 text-lg">Android:</h3>
 
