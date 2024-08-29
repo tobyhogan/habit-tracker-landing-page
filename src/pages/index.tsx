@@ -16,7 +16,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
       <Header />
-      <main className="pb-10">
+      <main className="pt-16 pb-10">
         <div className="mx-6">
           <img src={tablescreenshot} className="w-[550px] border-[1px] mt-12"></img>
         </div>

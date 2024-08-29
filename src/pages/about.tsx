@@ -16,7 +16,7 @@ const AboutPage: React.FC<PageProps> = () => {
   return (
     <div className="">
       <Header />
-      <main>
+      <main className="pt-24 mb-36">
         <h1 className="text-3xl mt-8">About</h1>
         <h2 className="text-xl mt-4">Development</h2>
         <h3 className="text-lg mt-4">
