@@ -31,10 +31,11 @@ const IndexPage: React.FC<PageProps> = () => {
 
         </div>
         <h2 className="text-xl mt-8">Core Features:</h2>
-        <ul className="mx-auto w-fit mt-3 pl-8">
-          <li>- Shows you habit week view</li>
-          <li>- Dark Mode</li>
-          <li>- Allows habit archiving</li>
+        <ul className="mx-auto w-fit mt-4 pl-16">
+          <li>- Shows habit week view</li>
+          <li>- Allows habits to be archived</li>
+          <li>- Dark or light theme</li>
+          <li>- Habit metrics: total and current streak</li>
         </ul>
 
 
