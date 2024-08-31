@@ -37,6 +37,14 @@ const IndexPage: React.FC<PageProps> = () => {
           with good habits. 
         </h3>
         
+        <h2 className="mt-8">Core Features:</h2>
+        <ul className="mx-auto w-fit mt-3 pl-14">
+          <li>- Shows habit week view</li>
+          <li>- Allows habits to be archived</li>
+          <li>- Dark or light theme</li>
+          <li>- Habit metrics: total and current streak</li>
+        </ul>
+        
         <h2 className="mt-6">Platforms:</h2>
         <ul className="mt-3 w-fit mx-auto [&>h3]:text-left pl-12">
           <h3>- Web App (in browser)</h3>
@@ -45,13 +53,6 @@ const IndexPage: React.FC<PageProps> = () => {
           <h3>- Android App (install apk from below)</h3>
         </ul>
 
-        <h2 className="mt-8">Core Features:</h2>
-        <ul className="mx-auto w-fit mt-3 pl-14">
-          <li>- Shows habit week view</li>
-          <li>- Allows habits to be archived</li>
-          <li>- Dark or light theme</li>
-          <li>- Habit metrics: total and current streak</li>
-        </ul>
 
         <h2 className="mt-6">More Information</h2>
         <h3 className="mt-2">With the tracker, you can also log other habits: neutral ones(for observation) or negative ones(for prevention)</h3>
