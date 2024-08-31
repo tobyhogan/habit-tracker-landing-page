@@ -5,7 +5,7 @@
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 870px) {
 
   .ToggleNav {
     display: auto;
@@ -19,7 +19,7 @@
 
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 871px) {
 
 
   .ToggleNav {
@@ -79,10 +79,12 @@ h1 {
 
 h2 {
   text-align: center;
+  font-size: 20px;
 }
 
 h3 {
   text-align: center;
+  font-size: 16px;
 }
 
 

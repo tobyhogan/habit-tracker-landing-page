@@ -16,7 +16,7 @@ const DocumentationPage: React.FC<PageProps> = () => {
   return (
     <div className="">
       <Header />
-      <main>
+      <main className="pt-20 pb-40">
         <h1 className="text-3xl mt-8">Documentation</h1>
         <h2 className="text-xl mt-4">Main App</h2>
       </main>

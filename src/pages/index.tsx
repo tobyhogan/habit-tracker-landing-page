@@ -16,27 +16,45 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
       <Header />
-      <main className="pt-16 pb-10">
+      <main className="pt-16 pb-10 px-[5vw]">
         <div className="mx-6">
           <img src={tablescreenshot} className="w-[550px] border-[1px] mt-12"></img>
         </div>
         <h1 className="text-2xl mt-8">Habitazen: An Unreasonably Effective Habit Tracker</h1>
         <div className="flex flex-col mx-auto w-fit mt-8">
 
-          <Link to="https://habit-tracker-indol-ten.vercel.app/" className="Link1 rounded-md text-lg py-1.5 px-6 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
+          <a href="https://habit-tracker-indol-ten.vercel.app/" className="Link1 rounded-md text-lg py-1.5 px-6 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
             Sign Up Now!
-          </Link>
+          </a>
 
           <Link to="https://habit-tracker-indol-ten.vercel.app/" className="Link2 mt-4 mx-auto">Or Log In</Link>
 
         </div>
-        <h2 className="text-xl mt-8">Core Features:</h2>
-        <ul className="mx-auto w-fit mt-4 pl-16">
+
+        <h2 className="mt-8">What it for?</h2>
+        <h3 className="mt-3">Ever find yourself struggling to stick to positive habits consistently? - That's what this tracker
+          helps with! <br/> We've found that seeing your overall progress, and building up a streak is massively helpful in motivating you to keep up
+          with good habits. 
+        </h3>
+        
+        <h2 className="mt-6">Platforms:</h2>
+        <ul className="mt-3 w-fit mx-auto [&>h3]:text-left pl-12">
+          <h3>- Web App (in browser)</h3>
+          <h3>- Mobile App (add from browser)</h3>
+          <h3>- Desktop (add from browser)</h3>
+          <h3>- Android App (install apk from below)</h3>
+        </ul>
+
+        <h2 className="mt-8">Core Features:</h2>
+        <ul className="mx-auto w-fit mt-3 pl-14">
           <li>- Shows habit week view</li>
           <li>- Allows habits to be archived</li>
           <li>- Dark or light theme</li>
           <li>- Habit metrics: total and current streak</li>
         </ul>
+
+        <h2 className="mt-6">More Information</h2>
+        <h3 className="mt-2">With the tracker, you can also log other habits: neutral ones(for observation) or negative ones(for prevention)</h3>
 
 
         <h2 className="text-xl mt-10">Download App</h2>

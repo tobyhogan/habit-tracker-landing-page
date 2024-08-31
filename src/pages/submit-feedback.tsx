@@ -11,15 +11,15 @@ import '../styles/index.css'
 
 const SubmitFeedback: React.FC<PageProps> = () => {
   return (
-    <div className="">
+    <>
       <Header />
-      <main>
-        <h1 className="text-3xl mt-8">Submit Fedback</h1>
+      <main className="pt-20 pb-20">
+        <h1 className="text-3xl mt-8">Submit Feedback</h1>
         <h2 className="text-xl mt-4"></h2>
       </main>
       <Footer />
 
-    </div>
+    </>
   )
 }
 
