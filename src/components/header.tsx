@@ -119,7 +119,7 @@ function Header() {
   return (
 
     <header className="NavBar flex justify-between fixed w-full">
-      <Link to='/' className='Link1 text-[35px] ml-14 py-3'>Habitazen</Link>
+      <Link to='/' className='Link1 text-[35px] ml-14 py-2.5'>Habitazen</Link>
 
       <div className="FullNav">
 
