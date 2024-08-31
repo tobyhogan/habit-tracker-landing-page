@@ -119,17 +119,17 @@ function Header() {
   return (
 
     <header className="NavBar flex justify-between fixed w-full">
-      <Link to='/' className='Link1 text-[35px] ml-14 py-2.5'>Habitazen</Link>
+      <Link to='/' className='Link1 text-[35px] ml-[4vw] py-2.5'>Habitazen</Link>
       <div className="flex flex-row">
-        <a href="https://habit-tracker-indol-ten.vercel.app/" className="Link1 rounded-md text-md my-auto mr-[3vw] py-1.5 px-[3vw] h-fit bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
+        <a href="https://habit-tracker-indol-ten.vercel.app/" className="Link1 rounded-md text-md my-auto mr-[1vw] py-1.5 px-[3vw] h-fit bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
           Sign Up Now!
         </a>
 
 
 
-      <div className="FullNav">
+      <div className="FullNav ml-4 mr-5">
 
-        <ul className="flex mt-6 mr-">
+        <ul className="flex mt-6">
           {navList}
         </ul>
 
@@ -138,7 +138,7 @@ function Header() {
       <div className="ToggleNav">
 
         <button onClick={() => {setNavOpen(navOpen => !navOpen)}}>
-          <MdMenu className="ml-4 mr-8 mt-6 text-black dark:text-white" size={30} />
+          <MdMenu className="ml-4 mr-[3vw] mt-6 text-black dark:text-white" size={30} />
         </button>
 
         {navOpen ?
