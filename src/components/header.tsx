@@ -8,23 +8,15 @@ import '../styles/global.css'
 import '../styles/index.css'
 
 
-
 function Header() {
 
   const [navOpen, setNavOpen] = useState(false)
-
   const [isDark, setIsDark] = useState(false)
-
-
-
-
-
 
 
   useEffect(() => {
 
     document.body.classList.add('dark')
-
 
     if (!localStorage.getItem("theme")) {
 
@@ -33,52 +25,36 @@ function Header() {
 
         localStorage.setItem("theme", "dark")
         document.body.classList.add('dark')
-  
         setIsDark(true)
           
-
       } else {
 
         localStorage.setItem("theme", "dark")
         document.body.classList.add('dark')
-  
         setIsDark(true)
-
       }
-
 
     } else if (localStorage.getItem("theme") == "light") {
 
-      
-      
       document.body.classList.add('light');
-
       setIsDark(false)
-
-
 
     } else if (localStorage.getItem("theme") == "dark") {
 
-      
-      
       document.body.classList.add('dark');
-
       setIsDark(true)
 
     }
-
 
   }, [])
 
 
   function handleToggleTheme() {
 
-
     if (localStorage.getItem("theme") == "light") {
 
 
       localStorage.setItem("theme", "dark")
-
       
       document.body.classList.add('dark');
       document.body.classList.remove('light');
@@ -101,18 +77,13 @@ function Header() {
   }
 
 
-
-
-
   const navList = 
     <>
-    
       <Link to="https://habit-tracker-indol-ten.vercel.app/" className="Link1 hover:underline">Log In</Link>
       <Link to="/" className="Link1 hover:underline">Home</Link>
       <Link to="/about" className="Link1 hover:underline">About</Link>
       <Link to="/documentation" className="Link1 hover:underline">Docs</Link>
       <Link to="/submit-feedback" className="Link1 hover:underline">Submit Feedback</Link>
-
     </>
 
 
