@@ -33,10 +33,9 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
 
           <h2 className="mt-8">What's it for?</h2>
-          <h3 className="mt-3">Ever struggle to stick to good habits consistently? - That's what the tracker's
-            for! <br/> We've found that seeing your overall progress, and building up a streak is massively helpful in motivating you to keep up
-            with good habits. 
-          </h3>
+          <h3 className="mt-3">Ever struggle to stick to good habits consistently? - That's what the tracker's for!</h3>
+          <h3 className="mt-3"> We've found that seeing your overall progress, and building up a streak is massively helpful in motivating you to keep up
+          with good habits. </h3>
           
           <h2 className="mt-8">Core Features:</h2>
           <ul className="mx-auto w-fit mt-3 pl-14">
