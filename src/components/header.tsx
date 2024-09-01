@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import { Link } from "gatsby";
 
 import { MdMenu, MdOutlineDarkMode, MdLightMode, MdLight, MdDarkMode } from "react-icons/md";
+
+import NavLink from "./navlink";
 
 import '../styles/global.css'
 import '../styles/index.css'
@@ -12,6 +14,20 @@ function Header() {
 
   const [navOpen, setNavOpen] = useState(false)
   const [isDark, setIsDark] = useState(false)
+
+  const menuRef = useRef(null);
+  const buttonRef = useRef(null);
+
+  useOutsideTrigger(menuRef, buttonRef);
+
+  const navList = 
+    <>
+      <NavLink to="https://habit-tracker-indol-ten.vercel.app/" text="Log In" setNavOpen={setNavOpen} />
+      <NavLink to="/" text="Home" setNavOpen={setNavOpen} />
+      <NavLink to="/about" text="About" setNavOpen={setNavOpen} />
+      <NavLink to="/documentation" text="Docs" setNavOpen={setNavOpen} />
+      <NavLink to="/submit-feedback" text="Submit Feedback" setNavOpen={setNavOpen} />
+    </>
 
 
   useEffect(() => {
@@ -72,19 +88,30 @@ function Header() {
       setIsDark(false)
 
     } 
-
-
   }
 
 
-  const navList = 
-    <>
-      <Link to="https://habit-tracker-indol-ten.vercel.app/" className="Link1 hover:underline">Log In</Link>
-      <Link to="/" className="Link1 hover:underline">Home</Link>
-      <Link to="/about" className="Link1 hover:underline">About</Link>
-      <Link to="/documentation" className="Link1 hover:underline">Docs</Link>
-      <Link to="/submit-feedback" className="Link1 hover:underline">Submit Feedback</Link>
-    </>
+
+  function useOutsideTrigger (ref1: any, ref2: any) {
+
+    useEffect(() => {
+      function handleClickOutside(event: any) {
+
+        if (ref1.current && !ref1.current.contains(event.target) && !ref2.current.contains(event.target)) {
+          
+          setNavOpen(false)
+
+        }}
+
+      document.addEventListener("mousedown", handleClickOutside);
+
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+      
+    }, [ref1, ref2]);
+
+  }
 
 
   return (
@@ -108,13 +135,13 @@ function Header() {
       
       <div className="ToggleNav">
 
-        <button onClick={() => {setNavOpen(navOpen => !navOpen)}}>
+        <button onClick={() => {setNavOpen(navOpen => !navOpen)}} ref={buttonRef}>
           <MdMenu className="ml-4 mr-[3vw] mt-6 text-black dark:text-white" size={30} />
         </button>
 
         {navOpen ?
 
-          <div className="border-1 border-slate-300 border-2 pt-4 pb-3 pl-2 pr-4 -ml-24 w-50 absolute rounded-md bg-white dark:bg-[#333333]">
+          <div ref={menuRef} className="border-1 border-slate-300 border-2 pt-4 pb-3 pl-2 pr-4 -ml-24 w-50 absolute rounded-md bg-white dark:bg-[#333333]">
             <ul className="flex flex-col text-start ml-3">
               {navList}
             </ul>
