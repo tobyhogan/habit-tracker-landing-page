@@ -127,7 +127,7 @@ function Header() {
 
       <div className="FullNav ml-4 mr-5">
 
-        <ul className="flex mt-6">
+        <ul className="flex mt-6 [&>*]:mr-3">
           {navList}
         </ul>
 
@@ -142,7 +142,7 @@ function Header() {
         {navOpen ?
 
           <div ref={menuRef} className="border-1 border-slate-300 border-2 pt-4 pb-3 pl-2 pr-4 -ml-24 w-50 absolute rounded-md bg-white dark:bg-[#333333]">
-            <ul className="flex flex-col text-start ml-3">
+            <ul className="flex flex-col [&>*]:text-start ml-3">
               {navList}
             </ul>
           </div>
