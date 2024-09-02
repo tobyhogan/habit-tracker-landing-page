@@ -26,7 +26,8 @@ function Header() {
       <NavLink to="/" text="Home" setNavOpen={setNavOpen} />
       <NavLink to="/about" text="About" setNavOpen={setNavOpen} />
       <NavLink to="/documentation" text="Docs" setNavOpen={setNavOpen} />
-      <NavLink to="/submit-feedback" text="Submit Feedback" setNavOpen={setNavOpen} />
+      <NavLink to="/privacy-policy" text="Privacy" setNavOpen={setNavOpen} />
+      <NavLink to="/contact" text="Contact" setNavOpen={setNavOpen} />
     </>
 
 
