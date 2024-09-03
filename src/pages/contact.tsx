@@ -17,7 +17,6 @@ const SubmitFeedback: React.FC<PageProps> = () => {
         <h1 className="text-3xl mt-8" id="request-data-deletion">Request Data Deletion</h1>
         <h3 className="mt-4">Please email: kazenprojects@gmail.com to request for data to be deleted.</h3>
         <h1 className="text-3xl mt-8">Submit Feedback</h1>
-        <h2 className="text-xl mt-4"></h2>
       </main>
       <Footer />
 

@@ -22,7 +22,7 @@ const AboutPage: React.FC<PageProps> = () => {
         <h3 className="text-lg mt-4">
           Developed by Toby Hogan
           (<a href="https://tobyhogan.space" className="underline" target="_blank">tobyhogan.space</a>) 
-          as a <a href="https://tobyhogan.github.io/kazen-projects-landing-page/" target="_blank" className="underline">Kazen Projects</a> Project</h3>
+          as a <a href="https://tobyhogan.github.io/kazen-projects-landing-page/" target="_blank" className="underline">Kazen Projects</a> Project.</h3>
 
       </main>
       <Footer />
