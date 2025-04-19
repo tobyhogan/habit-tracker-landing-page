@@ -22,12 +22,6 @@ module.exports = {
     
     },},
     'gatsby-plugin-postcss',
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        "icon": "src/assets/icon.png"
-      }
-    },
 
     // ...
   ],
