@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "postinstall": "pnpm rebuild sharp --platform=linux --arch=x64",
+    "postinstall": "npm rebuild sharp --platform=linux --arch=x64",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
