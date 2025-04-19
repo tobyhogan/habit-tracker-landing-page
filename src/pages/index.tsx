@@ -21,14 +21,14 @@ const IndexPage: React.FC<PageProps> = () => {
           <img src={tablescreenshot} className="w-[550px] border-[1px] mt-12"></img>
         </div>
         <div className="px-[5vw]">
-          <h1 className="text-2xl mt-8">Habitazen: An Unreasonably Effective Habit Tracker</h1>
+          <h1 className="text-2xl mt-8">HabitBeacon: An Unreasonably Effective Habit Tracker</h1>
           <div className="flex flex-col mx-auto w-fit mt-8">
 
-            <a href="https://habit-tracker-indol-ten.vercel.app/" className="Link1 rounded-md text-lg py-1.5 px-6 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
+            <a href="https://app.habitbeacon.com/" className="Link1 rounded-md text-lg py-1.5 px-6 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
               Sign Up Now!
             </a>
 
-            <Link to="https://habit-tracker-indol-ten.vercel.app/" className="Link2 mt-4 mx-auto">Or Log In</Link>
+            <Link to="https://app.habitbeacon.com/" className="Link2 mt-4 mx-auto">Or Log In</Link>
 
           </div>
 
@@ -76,4 +76,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Habitazen Habit Tracker</title>
+export const Head: HeadFC = () => <title>HabitBeacon Habit Tracker</title>
