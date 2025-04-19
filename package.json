@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "postinstall": "pnpm rebuild sharp --platform=linux --arch=x64",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -23,7 +24,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
-    "sharp": "^0.34.1"
+    "sharp": "^0.30.7"
+    
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
