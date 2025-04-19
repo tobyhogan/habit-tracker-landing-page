@@ -40,5 +40,8 @@
   },
   "resolutions": {
     "sharp": "0.30.7"
+  },
+  "overrides": {
+  "sharp": "0.30.7"
   }
 }
