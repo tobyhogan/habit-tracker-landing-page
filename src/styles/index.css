@@ -4,6 +4,30 @@
     font-family: "Nunito", sans-serif;
 }
 
+@media only screen and (max-width: 450px) {
+
+  .Burger1 {
+
+    margin-left: 4px;
+  }
+
+
+
+
+}
+
+@media only screen and (min-width: 450px) {
+
+  .Burger1 {
+    margin-left: 2vw;
+  }
+
+
+
+
+
+}
+
 
 @media only screen and (max-width: 870px) {
 
