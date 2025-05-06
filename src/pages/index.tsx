@@ -21,7 +21,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <img src={tablescreenshot} className="w-[550px] border-[1px] mt-12"></img>
         </div>
         <div className="px-[5vw]">
-          <h1 className="text-2xl mt-8">HabitBeacon: The Unreasonably Effective Habit Tracker</h1>
+          <h1 className="text-2xl mt-8">X HabitBeacon: The Unreasonably Effective Habit Tracker</h1>
           <div className="flex flex-col mx-auto w-fit mt-8">
 
             <a href="https://habit-tracker-indol-ten.vercel.app/" className="Link1 rounded-md text-lg py-1.5 px-6 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
