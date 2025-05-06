@@ -9,7 +9,7 @@ function NavLink({text, to, setNavOpen}: any) {
 
   return (
     <button
-      className="Link1 hover:underline"
+      className="Link3 hover:underline"
       onClick={() => {
 
         navigate(to)
