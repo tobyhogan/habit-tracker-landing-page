@@ -21,7 +21,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <img src={tablescreenshot} className="w-[550px] border-[1px] mt-12"></img>
         </div>
         <div className="px-[5vw]">
-          <h1 className="text-2xl mt-8">Habitazen: The Unreasonably Effective Habit Tracker</h1>
+          <h1 className="text-2xl mt-8">HabitBeacon: The Unreasonably Effective Habit Tracker</h1>
           <div className="flex flex-col mx-auto w-fit mt-8">
 
             <a href="https://habit-tracker-indol-ten.vercel.app/" className="Link1 rounded-md text-lg py-1.5 px-6 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
@@ -33,9 +33,9 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
 
           <h2 className="mt-8">What does it do?</h2>
-          <h3 className="mt-3">Ever struggle to stick to good habits consistently? - That's what the tracker's for!</h3>
+          <h3 className="mt-3">Ever struggle to stick to good habits consistently?</h3>
           <h3 className="mt-3"> We've found that seeing your overall progress, and building up a streak is massively helpful in motivating you to keep up
-          with good habits. </h3>
+          with good habits </h3>
 
           <h2 className="mt-6">Core Features:</h2>
           <ul className="mt-3 w-fit mx-auto [&>li]:text-left pl-16">
@@ -76,4 +76,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Habitazen Habit Tracker</title>
+export const Head: HeadFC = () => <title>HabitBeacon Habit Tracker</title>
