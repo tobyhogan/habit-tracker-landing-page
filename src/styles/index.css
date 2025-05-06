@@ -6,6 +6,10 @@
 
 @media only screen and (max-width: 450px) {
 
+  .Link1 {
+    margin-left: 3px;
+  }
+
   .Burger1 {
 
     margin-left: 4px;
@@ -15,6 +19,10 @@
 }
 
 @media only screen and (min-width: 450px) {
+
+  .Link1 {
+    margin-left: 4vw;
+  }
 
   .Burger1 {
     margin-left: 2vw;

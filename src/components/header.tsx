@@ -118,7 +118,7 @@ function Header() {
   return (
 
     <header className="NavBar flex justify-between fixed w-full">
-      <Link to='/' className='Link1 text-[35px] ml-[4vw] py-2.5'>HabitBeacon</Link>
+      <Link to='/' className='Link1 text-[35px] py-2.5'>HabitBeacon</Link>
       <div className="flex flex-row">
         <a href="https://habit-tracker-indol-ten.vercel.app/" className="Link1 rounded-md whitespace-nowrap text-md my-auto mr-[1vw] py-1.5 px-[3vw] h-fit bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
           Sign&nbsp;Up&nbsp;Now!
