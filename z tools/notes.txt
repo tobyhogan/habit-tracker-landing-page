@@ -1,0 +1,6 @@
+
+
+- the site seems to deploy from netlify okay WITHOUT the 'gatsby-plugin-manifest' package, when I add back in the package, i get problems though...
+
+
+
