@@ -11,7 +11,7 @@ function Footer() {
 
     <footer className="text-center py-8">
 
-      <p>© HabitBeacon 2025</p>
+      <p>© HabitBeacon 2025 l</p>
 
     </footer>
 
