@@ -21,17 +21,7 @@ module.exports = {
         },
     
     },},
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `HabitBeacon - Habit Tracker`,
-        short_name: `HabitBeacon`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/assets/icon.png`, // Path to your favicon
-    },},
+    
 
     'gatsby-plugin-postcss',
     // ...
