@@ -24,11 +24,11 @@ const IndexPage: React.FC<PageProps> = () => {
           <h1 className="text-2xl mt-8">HabitBeacon: The Unreasonably Effective Habit Tracker</h1>
           <div className="flex flex-col mx-auto w-fit mt-8">
 
-            <a href="https://app.habitbeacon.com/" target="_blank" className="Link1p1 rounded-md text-lg py-1.5 px-6 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
+            <a href="https://app.habitbeacon.com/habit/" target="_blank" className="Link1p1 rounded-md text-lg py-1.5 px-6 bg-gradient-to-tr from-green-500 to-blue-700 hover:from-green-600 hover:to-blue-800">
               Sign Up Now!
             </a>
 
-            <Link to="https://app.habitbeacon.com/" target="_blank" className="Link2 mt-4 mx-auto">Or Log In</Link>
+            <Link to="https://app.habitbeacon.com/habit/" target="_blank" className="Link2 mt-4 mx-auto">Or Log In</Link>
 
           </div>
 
